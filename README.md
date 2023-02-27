@@ -10,7 +10,7 @@ Se tratando de uma carteira de valores não existe DELETE afim de manter a integ
 
 user (account)
 
-http://localhost:3000/user
+POST: http://localhost:3000/user
 
 criação de usuario de contas
 
@@ -19,7 +19,7 @@ criação de usuario de contas
   "email": "email@email.com"
 }
 
-http://localhost:3000/transaction
+POST: http://localhost:3000/transaction
 
 Efetua todas as trasações de credito e debito do usuario
 
